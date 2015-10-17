@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       { name: 'forcemousedown', from: 'mousedown',      to: 'forcemousedown' },
       { name: 'forcemouseup',   from: 'forcemousedown', to: 'mousedown' }
     ], callbacks: {
-      onforcemousedown: function() { forcetouch.className = "navigation-active";  }, //force down
+      onforcemousedown: function() { forcetouch.className = "oak-navigation-active";  },
 
     }
   });
