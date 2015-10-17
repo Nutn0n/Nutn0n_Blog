@@ -1,0 +1,49 @@
+{{!< default}}
+
+{{#author}}
+<header  role='banner' class="oak-header" style="background-image: 
+	{{#if cover}}url({{cover}})
+	{{else}}
+		{{#if @blog.cover}}url({{@blog.cover}})
+		{{else}}none
+		{{/if}}
+	{{/if}}">
+	<span class="oak-overlay"></span>
+	<div class="oak-inner">		
+		<div>
+			{{#if @blog.logo}}
+				<a href="{{@blog.url}}"><img class="oak-header-logo" src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+			{{/if}}
+			<h1 class="oak-header-title">
+				<a href="{{@blog.url}}">{{@blog.title}}</a>
+			</h1>
+			<hr>
+			<h2><a href="{{url}}">{{name}}</a></h2>
+			<p>{{bio}}</p>
+			{{#if website}}<p class="ion-ios-world-outline"> <a href="{{website}}">{{website}}</a></p>{{/if}}
+			{{#if location}}<p class="ion-ios-location-outline"> {{location}}</p>{{/if}}
+		</div>
+	</div>	
+	{{> get-in-touch}}
+</header>
+{{/author}}
+
+
+<main role="main" class="oak-main">
+	<span class="oak-vertical-separator"></span>
+	<header>
+		{{#if author.image}}
+		<span class="oak-button oak-button-image" style="background: url({{author.image}});"> &nbsp; &nbsp;</span>
+		{{/if}}
+		<span class="oak-main-header-left-item oak-hide-on-mobile">{{author.name}}</span>
+		<form class="oak-post-search" role="search">
+			<input type="text" class="oak-search" placeholder="Search posts here">
+			<span class="oak-search-icon ion-ios-search"></span>
+			<div class="oak-search-results"></div>	
+		</form>							
+	</header>
+	{{> loop}}
+
+	{{> footer}}
+</main>
+

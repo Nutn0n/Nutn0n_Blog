@@ -1,0 +1,46 @@
+{{!< default}}
+
+{{#tag}}
+<header  role='banner' class="oak-header" style="background-image:
+	{{#if image}}url({{image}})
+	{{else}}
+		{{#if @blog.cover}}url({{@blog.cover}})
+		{{else}}none
+		{{/if}}
+	{{/if}}">
+
+	<div class="oak-inner">
+		<div>
+			{{#if @blog.logo}}
+				<a href="{{@blog.url}}"><img class="oak-header-logo" src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+			{{/if}}
+			<h1 class="oak-header-title">
+				<a href="{{@blog.url}}">{{@blog.title}}</a>
+			</h1>
+			<hr>
+			<h3 class="oak-uppercase ion-ios-grid-view-outline"> {{name}}</h3>
+			<p>{{description}}</p>
+		</div>
+	</div>
+	{{> get-in-touch}}
+</header>
+{{/tag}}
+
+<main role="main" class="oak-main">
+	<span class="oak-vertical-separator"></span>
+	<header>
+		{{#tag}}
+		<span class="oak-main-header-left-item oak-uppercase oak-hide-on-mobile ion-ios-grid-view-outline">
+			{{name}}
+		</span>
+		{{/tag}}
+		<form class="oak-post-search" role="search">
+			<input type="text" class="oak-search" placeholder="Search posts here">
+			<span class="oak-search-icon ion-ios-search"></span>
+			<div class="oak-search-results"></div>
+		</form>
+	</header>
+	{{> loop}}
+
+	{{> footer}}
+</main>

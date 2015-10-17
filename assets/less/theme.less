@@ -1,0 +1,1726 @@
+/* ========================================================================================================================
+	Table of contents
+	
+	0. Normalize.css v3.0.2 | MIT License | git.io/normalize
+	1. Color schemes
+		1.1 Alizarin
+		1.2 Belize Hole
+		1.3	Wisteria
+		1.4	Pumpkin
+		1.5 Green Sea
+		1.6 Asbestos
+	2. General styles - Base styles
+	3. Utilities
+	4. Navigation styles
+	5. Header styles
+	6. Main styles
+	7. Article styles
+		7.1 Base article styles
+		7.2 Article styles for listings pages (index.hbs, tag.hbs, author.hbs)
+		7.3 Article styles for post.hbs & page.hbs
+		7.4	Featured article styles
+		7.5	Responsive google maps styles
+		7.6	Previous and next posts styles
+	8. Pagination styles
+	9. Footer styles
+	10. Social buttons
+	11. Responsive styles
+		11.1 Tablets, desktops & up
+		11.2 Tablets, small desktops, phones & down
+		11.3 Small tablets, phones & down
+============================================================================================================================*/
+
+/* ========================================================================================================================
+	0. Normalize.css v3.0.2 | MIT License | git.io/normalize
+============================================================================================================================*/
+@import url("normalize.css");
+/* ========================================================================================================================
+	1 Color schemes
+============================================================================================================================*/
+/* ========================================================================================================================
+		1.1 Alizarin
+============================================================================================================================*/
+.oak-alizarin {
+	a {
+		color: @alizarin;
+	}
+
+	blockquote {
+		border-left: 5px solid @alizarin;
+	}
+
+	mark {
+	    background-color: @alizarin;
+	}
+
+	.oak-button, .older-posts, .newer-posts  {
+		&:hover {
+			background: @alizarin;
+			border-color: @alizarin;
+		}
+	}
+
+	.oak-header {
+		background-color: @alizarin;
+	}
+
+	.oak-article {
+		.oak-article-title {
+			a {	
+				&:hover {
+					color: @alizarin;;
+				}
+			}		
+		}
+	}
+
+	.oak-previous-post, .oak-next-post {
+		&:hover {
+			border-color: @alizarin;	
+		}		
+	}
+
+	@media (min-width: 1000px) {
+		&.oak-navigation-active {
+			.oak-header {
+				.oak-overlay {
+					background: @alizarin;
+				}
+			}		
+		}
+	}
+
+	@media (max-width: 1000px) {
+		.oak-navigation {
+			background: @alizarin;
+		}		
+	}
+}
+
+
+/* ========================================================================================================================
+		1.2 Belize Hole
+============================================================================================================================*/
+.oak-belize-hole {
+	a {
+		color: @belize_hole;
+	}
+
+	blockquote {
+		border-left: 5px solid @belize_hole;
+	}
+
+	mark {
+	    background-color: @belize_hole;
+	}
+
+	.oak-button, .older-posts, .newer-posts  {
+		&:hover {
+			background: @belize_hole;
+			border-color: @belize_hole;
+		}
+	}
+
+	.oak-header {
+		background-color: @belize_hole;
+	}
+
+	.oak-article {
+		.oak-article-title {
+			a {	
+				&:hover {
+					color: @belize_hole;;
+				}
+			}		
+		}
+	}
+
+	.oak-previous-post, .oak-next-post {
+		&:hover {
+			border-color: @belize_hole;	
+		}		
+	}
+
+	@media (min-width: 1000px) {
+		&.oak-navigation-active {
+			.oak-header {
+				.oak-overlay {
+					background: @belize_hole;
+				}
+			}		
+		}
+	}
+
+	@media (max-width: 1000px) {
+		.oak-navigation {
+			background: @belize_hole;
+		}		
+	}
+}
+
+/* ========================================================================================================================
+		1.3 Wisteria
+============================================================================================================================*/
+.oak-wisteria {
+	a {
+		color: @wisteria;
+	}
+
+	blockquote {
+		border-left: 5px solid @wisteria;
+	}
+
+	mark {
+	    background-color: @wisteria;
+	}
+
+	.oak-button, .older-posts, .newer-posts  {
+		&:hover {
+			background: @wisteria;
+			border-color: @wisteria;
+		}
+	}
+
+	.oak-header {
+		background-color: @wisteria;
+	}
+
+	.oak-article {
+		.oak-article-title {
+			a {	
+				&:hover {
+					color: @wisteria;;
+				}
+			}		
+		}
+	}
+	
+	.oak-previous-post, .oak-next-post {
+		&:hover {
+			border-color: @wisteria;	
+		}		
+	}
+
+	@media (min-width: 1000px) {
+		&.oak-navigation-active {
+			.oak-header {
+				.oak-overlay {
+					background: @wisteria;
+				}
+			}		
+		}
+	}
+
+	@media (max-width: 1000px) {
+		.oak-navigation {
+			background: @wisteria;
+		}		
+	}
+}
+
+/* ========================================================================================================================
+		1.4 Pumpkin
+============================================================================================================================*/
+.oak-pumpkin {
+	a {
+		color: @pumpkin;
+	}
+
+	blockquote {
+		border-left: 5px solid @pumpkin;
+	}
+
+	mark {
+	    background-color: @pumpkin;
+	}
+
+	.oak-button, .older-posts, .newer-posts  {
+		&:hover {
+			background: @pumpkin;
+			border-color: @pumpkin;
+		}
+	}
+
+	.oak-header {
+		background-color: @pumpkin;
+	}
+
+	.oak-article {
+		.oak-article-title {
+			a {	
+				&:hover {
+					color: @pumpkin;;
+				}
+			}		
+		}
+	}
+
+	.oak-previous-post, .oak-next-post {
+		&:hover {
+			border-color: @pumpkin;	
+		}		
+	}
+
+	@media (min-width: 1000px) {
+		&.oak-navigation-active {
+			.oak-header {
+				.oak-overlay {
+					background: @pumpkin;
+				}
+			}		
+		}
+	}
+
+	@media (max-width: 1000px) {
+		.oak-navigation {
+			background: @pumpkin;
+		}		
+	}
+}
+
+/* ========================================================================================================================
+		1.5 Green Sea
+============================================================================================================================*/
+.oak-green-sea {
+	a {
+		color: @green_sea;
+	}
+
+	blockquote {
+		border-left: 5px solid @green_sea;
+	}
+
+	mark {
+	    background-color: @green_sea;
+	}
+
+	.oak-button, .older-posts, .newer-posts  {
+		&:hover {
+			background: @green_sea;
+			border-color: @green_sea;
+		}
+	}
+
+	.oak-header {
+		background-color: @green_sea;
+	}
+
+	.oak-article {
+		.oak-article-title {
+			a {	
+				&:hover {
+					color: @green_sea;;
+				}
+			}		
+		}
+	}
+
+	.oak-previous-post, .oak-next-post {
+		&:hover {
+			border-color: @green_sea;	
+		}		
+	}
+
+	@media (min-width: 1000px) {
+		&.oak-navigation-active {
+			.oak-header {
+				.oak-overlay {
+					background: @green_sea;
+				}
+			}		
+		}
+	}
+
+	@media (max-width: 1000px) {
+		.oak-navigation {
+			background: @green_sea;
+		}		
+	}
+}
+
+/* ========================================================================================================================
+		1.6 Asbestos
+============================================================================================================================*/
+.oak-asbestos {
+	a {
+		color: @asbestos;
+	}
+
+	blockquote {
+		border-left: 5px solid @asbestos;
+	}
+
+	mark {
+	    background-color: @asbestos;
+	}
+
+	.oak-button, .older-posts, .newer-posts  {
+		&:hover {
+			background: @asbestos;
+			border-color: @asbestos;
+		}
+	}
+
+	.oak-header {
+		background-color: @asbestos;
+	}
+
+	.oak-article {
+		.oak-article-title {
+			a {	
+				&:hover {
+					color: @asbestos;;
+				}
+			}		
+		}
+	}
+
+	.oak-previous-post, .oak-next-post {
+		&:hover {
+			border-color: @asbestos;	
+		}		
+	}
+
+	@media (min-width: 1000px) {
+		&.oak-navigation-active {
+			.oak-header {
+				.oak-overlay {
+					background: @asbestos;
+				}
+			}		
+		}
+	}
+
+	@media (max-width: 1000px) {
+		.oak-navigation {
+			background: @asbestos;
+		}		
+	}
+}
+
+/* ========================================================================================================================
+	2. General styles - Base styles
+============================================================================================================================*/
+html, body {
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;  
+			box-sizing: border-box;
+}
+
+::-moz-selection {
+    background: #D6EDFF;
+}
+
+::selection {
+    background: #D6EDFF;
+}
+
+body {	
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+    color: @text_color;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  	overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: @heading_color;
+	font-family: 'Open Sans', sans-serif; 	
+	font-weight: 400;
+}
+
+img {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	border-radius: 2px;
+}
+
+input, textarea {
+	outline: none;
+	box-shadow: none;
+}
+
+
+hr {
+	border: none;
+	border-top: 1px solid #ddd;
+	margin: @global_spacing 0;
+}
+
+a {
+	padding: 0 2px;
+	text-decoration: none;
+	.transition(.2s, ease);
+
+	&:hover {
+		background: #fafafa;
+		border-radius: 2px;
+	}
+}
+
+blockquote {
+	position: relative;
+	margin: 0;
+	padding: @global_spacing / 4 0 @global_spacing / 4 @global_spacing;
+	font-size: 1.1rem;
+	font-style: oblique;
+	text-align: left;
+	.transition(.2s, ease);
+
+	p {
+		text-align: left;
+	}
+
+	&:hover {
+		border-left-color: #00aced;
+
+		.oak-tweet {
+			opacity: 1;
+		}
+	}
+
+	.oak-tweet {
+		display: block;
+		border: none;
+		width: @global_spacing;
+		height: @global_spacing;
+		position: absolute;
+		left: -@global_spacing / 2;
+		top: 50%;
+		margin-top: -@global_spacing / 2;
+		margin-left: -2.5px;
+		border-radius: 100%;
+		background: #fff;
+		color: #00aced;
+		text-align: center;
+		line-height: @global_spacing;
+		vertical-align: middle;
+		opacity: 0;
+		.transition(.1s, ease);
+
+		&:hover {
+			background: #00aced;
+
+			&:before {
+				color: #fff;
+			}
+		}
+	}
+}
+
+blockquote cite {
+    font-weight: 400;
+}
+
+mark {
+	color: #fff;
+}
+
+kbd {
+    display: inline-block;
+    padding: 0 15px;
+    border: 1px #ddd;
+    border-radius: 2px;
+}
+
+pre {
+	border-radius: 2px;
+	padding: @global_spacing / 2;
+	background: #f1f0ea;
+	border: 1px solid #ddd;
+	max-height: 50rem;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap !important;
+  	white-space: -pre-wrap;
+  	white-space: -o-pre-wrap;
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+code {
+	padding: 0 2px;
+	border-radius: 2px;
+	background: #f1f0ea;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap !important;
+  	white-space: -pre-wrap;
+  	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+code, kbd, pre, samp {
+	color: @heading_color;
+	font-size: .95rem;
+	text-align: left;
+}
+
+iframe {
+	display: block;
+	padding: @global_spacing / 2 0;
+}
+
+table th,
+table td {
+    padding: 6px 15px;
+    text-align: left;
+    vertical-align: top;
+    border-top: @text_color 1px solid;
+}
+
+table th { color: @text_color; }
+
+table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+    border-top: 0;
+}
+
+table tbody + tbody { border-top: #ddd 2px solid; }
+
+table table table { background-color: #fff; }
+
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+    background-color: #F6F6F6;
+}
+
+table.plain tbody > tr:nth-child(odd) > td,
+table.plain tbody > tr:nth-child(odd) > th {
+   background: transparent;
+}
+
+a.oak-button,.oak-button {
+	border-radius: 2px;
+	display: inline-block;
+	position: relative;
+	font-weight: 300;
+	background: #fff;
+	color: @heading_color;
+	border: 1px solid @text_color;
+	padding: 6px 15px;
+	outline: none;
+	.transition(.01s, ease);
+
+	&.oak-button-inverse {
+		color: #fff;
+		border-color: #fff;
+		background: transparent;
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.8);
+			border-color: transparent;
+			color: 	@text_color;
+		}
+	}
+
+	&.oak-button-image {
+		background-size: cover !important;
+		background-position: 50% 50%;
+		border: none;
+	}
+
+	&:hover {
+		color: 	#fff;
+	}
+}
+
+
+/* ========================================================================================================================
+	3. Utilities
+============================================================================================================================*/
+.oak-inner {
+	position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.oak-uppercase {
+	text-transform: uppercase;
+}
+
+.transition(@duration, @timing) {
+	-webkit-transition: @duration @timing;
+       -moz-transition: @duration @timing;
+         -o-transition: @duration @timing;
+            transition: @duration @timing;
+}
+/* ========================================================================================================================
+	4. Navigation styles
+============================================================================================================================*/
+.oak-navigation-button {
+	display: block;
+	position: absolute;
+	top: @global_spacing;
+	left: @global_spacing;
+	z-index: 10;
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-size: 1.3rem;
+	outline: none;
+	padding: 0 3px;
+	letter-spacing: 1px;
+
+	&:before {
+		font-size: 1.8rem;
+		width: @global_spacing;
+		vertical-align: bottom;
+		text-align: left;	
+	}
+}
+
+.oak-navigation {
+	position: fixed;
+	overflow: hidden;
+	width: @left_header_width;
+	height: 100%;
+	left: -@left_header_width;
+	z-index: 5;		
+	.transition( .4s, cubic-bezier(.42,.66,.14,1));
+	
+
+	ul {
+		padding: 0 @global_spacing;
+		margin: @global_spacing *4 0 @global_spacing 0;
+		list-style-type: none;
+		display: inline-block;
+		width: 100%;
+		max-height: 80%;
+		overflow: auto;
+
+
+	  	li {
+	  		position: relative;
+	  		line-height: 1;
+	  		margin-bottom: @global_spacing;
+	  		border-left: 1px solid transparent;
+	  		padding-left: @global_spacing;
+	  		.transition( .5s, cubic-bezier(.42,.66,.14,1));
+
+	  		&:hover {
+	  			border-left-color: #fff;
+	  		}
+
+
+	  		a {
+	  			border-radius: 0;
+	  			color: rgba(255, 255, 255, 0.8);
+	  			font-weight: 300;
+	  			font-size: 1.3rem;
+	  			border-bottom: none;
+	  			letter-spacing: .1rem;
+
+	  			&:hover {
+	  				background: none;
+	  				color: rgba(255, 255, 255, 1);
+	  			}
+	  		}
+
+	  		&.nav-current {
+	  			a {
+	  				font-weight: bold; 
+	  			}
+	  		}
+	  	}
+	}
+}
+/* ========================================================================================================================
+	5. Header styles
+============================================================================================================================*/
+.oak-header {
+	-webkit-backface-visibility: hidden;
+	z-index: 1;
+	display: inline-block;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: fixed;
+	width: @left_header_width;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	left: 0;
+  	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+	.oak-inner {
+		padding: @global_spacing 0;
+		margin-top: @global_spacing * 3;
+	}
+
+	*:not(.oak-overlay) {
+		opacity: 1;
+		-webkit-font-smoothing: antialiased;
+		.transition( 1s, cubic-bezier(.42,.66,.14,1));
+	}
+		
+	h1, h2, h3, h4, h5, h6, a {
+		color: #fff;		
+	}
+
+	a:hover {
+		background: transparent;
+		border-bottom: transparent;
+	}	
+
+	
+	.oak-header-logo {
+		height: @global_spacing * 2;
+		width: auto;
+		margin:  0 auto;
+	}
+
+	.oak-header-title {
+		font-family: 'Leckerli One', cursive;
+		margin-bottom: 0px;
+		margin-top:  0px;
+	}
+
+	hr {
+		margin: @global_spacing / 2 0;
+		border-top: 3px double;
+	}
+
+	.oak-get-in-touch {
+		left: 0;
+		width: 100%;
+		color: #fff;
+		position: absolute;
+		bottom: 0;
+		background: rgba(255, 255, 255, 0.1);
+
+		ul {
+			padding: 0px;
+			list-style-type: none;
+
+			li {
+				display: inline-block;
+			}
+		}
+
+	}
+}
+
+
+.oak-overlay {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../images/pattern.png);
+	background-repeat: repeat;
+	opacity: 0.6;
+	background-color: rgba(0, 0, 0, 0.8);
+	.transition( 1s, cubic-bezier(.42,.66,.14,1));	
+}
+
+/* ========================================================================================================================
+	6. Main styles
+============================================================================================================================*/
+.oak-main {
+	display: inline-block;
+	position: relative;
+	float: right;
+	width: 100% - @left_header_width;
+	overflow: hidden;
+
+	.oak-inner {
+		width: 100%;
+		max-width: 800px;
+	}
+}
+
+.oak-vertical-separator {
+	padding: 0;
+	height: 100%;
+	width: 1px;
+	background: #ddd;
+	position: absolute;
+	left:50%;
+	margin-left: -1px;
+}
+
+.oak-main  > header {
+	padding: @global_spacing @global_spacing * 2;
+	width: 100%;
+
+	.oak-main-header-left-item {
+		color:@text_color;
+		text-decoration: none;
+		background: none;
+		border: none;
+		letter-spacing: 1px;
+		font-size: 1.3rem;
+
+		&:before {
+			font-size: 1.5rem;
+		}
+	}
+
+	.oak-inner {
+		height: @global_spacing;
+	}
+}
+
+.oak-post-search {
+	float: right;
+	position: relative;
+	z-index: 3;
+	margin-top: -6px;
+	display: inline;
+	border-radius: 2px;
+	padding: 0;
+
+	input {
+		font-size: 1.3rem;
+		padding: 6px 15px;
+		height: 100%;
+		border: 1px solid transparent;
+		border-bottom: none;
+		border-right: none;
+		margin: 0;
+		max-width: 13rem;
+		background: transparent;
+		.transition( .4s, cubic-bezier(.42,.66,.14,1));
+
+	}
+
+	.oak-search-icon {
+		font-size: 1.8rem;
+		color: @heading_color;
+		vertical-align: middle;
+		text-align: center;
+		top: 0;
+		margin: 0;
+		padding: 0 15px 0 0;
+		position: relative;
+		cursor: pointer;
+		border: 1px solid transparent;
+		border-bottom: none;
+		border-left: none;
+		float: right;
+		.transition( .4s, cubic-bezier(.42,.66,.14,1));	
+	}
+
+	.oak-search-results {
+		margin-left: -1;
+		z-index: 2;
+		border: 1px solid transparent;
+		border-top: none;
+		position: absolute;
+		top: 2.5rem;
+		width: 100%;
+		padding: 6px 15px;
+		opacity: 0;
+		visibility: hidden;
+		background: #fff;
+		font-weight: 300;
+		.transition( .4s, cubic-bezier(.42,.66,.14,1));
+
+		a {
+			line-height: 25px;
+		}
+	}
+
+	&.oak-post-search-active {
+		input {
+			border-color: #ddd;
+			background: #F6F6F6;
+			max-width: 20rem;
+		}
+
+		.oak-search-icon {
+			border-color: #ddd;
+			background: #F6F6F6;
+		}
+
+		.oak-search-results {
+			width: 100%;
+			visibility: visible;
+			opacity: 1;
+			border-color: #ddd;
+		}
+	}
+}
+.oak-articles-columns {
+	overflow: hidden;
+	width: 100%;
+}
+
+.oak-articles-column {
+	width: 50%;
+
+	&:nth-child(1) {
+		float: left;
+	}
+
+	&:nth-child(2) {
+		float: right;
+	}
+}
+
+/* ========================================================================================================================
+	7. Article styles
+============================================================================================================================*/
+
+/* ========================================================================================================================
+		7.1 Base article styles
+============================================================================================================================*/
+.oak-article {
+	padding: @global_spacing * 2;
+	position: relative;
+	width: 100%;
+
+	&:first-child {
+		padding-top: @global_spacing;
+	}
+
+	.oak-article-title {
+		margin: 0;
+		letter-spacing: .1rem;
+		line-height: 2.2rem;
+
+		a {	
+			padding: 0;
+			font-weight: 300;
+			color: @text_color;
+
+			&:hover {
+				background: transparent;
+				border-bottom: transparent;
+			}
+		}		
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		cursor: zoom-in;
+	}
+	
+	.oak-article-content {
+		text-align: justify;
+		margin: @global_spacing / 2 0;
+	}
+
+	.oak-article-tags {
+		a {
+			text-transform: uppercase;
+			font-size: .75rem;
+			padding: 0 6px;
+		}
+	}
+}
+
+/* ========================================================================================================================
+		7.2 Article styles for listings pages (index.hbs, tag.hbs, author.hbs)
+============================================================================================================================*/
+.oak-articles-column > .oak-article {
+	border-bottom: 1px solid #ddd;
+
+	&:hover {
+		box-shadow: 0 4px 4px -2px rgba(0,0,0,0.15);
+	}
+
+	header {
+		.oak-article-cover {
+			position: relative;
+			overflow: hidden;
+			
+			img { 
+				display: block;
+				-webkit-backface-visibility: hidden;
+				.transition( .4s, cubic-bezier(.42,.66,.14,1));
+			}
+
+			a {
+				.oak-button;
+				.oak-button-inverse;
+				content: "Read More";
+				position: absolute;
+				text-align: center;
+				width: 9rem;
+				font-size: 1.3rem;
+				line-height: 2rem;
+				top: 50%;
+				left: 50%;
+				margin-top:  -1.5rem;
+				margin-left: -4.5rem;
+				opacity: 0;
+				z-index: 1;
+			}
+
+			&:after {
+				opacity: 0;
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				background: rgba(0, 0, 0, 0.3);
+				.transition( .4s, cubic-bezier(.42,.66,.14,1));
+			}
+
+			&:hover {
+				img{ 
+					-webkit-transform: scale3d(1.07,1.07,1);
+					transform: scale3d(1.07,1.07,1);
+				}
+
+				&:after, a {
+					opacity: 1;
+				}
+			}
+		}
+
+		.oak-article-title {
+			margin-top: @global_spacing / 2;
+		}
+	}
+
+	.oak-article-content {
+		p:last-child:after {
+			content: " ...";
+		}
+	}
+
+	.oak-article-footer {		
+		.oak-article-actions {
+			width: 100%;
+			display: inline-block;
+
+			.oak-read-more {
+				float: left;
+			}
+
+			.oak-social-share {
+				float: right;
+			}
+		}
+
+		.oak-article-info {
+			text-transform: uppercase;
+			font-size: .75rem;
+			display: inline-block;
+		}
+	}
+}
+
+/* ========================================================================================================================
+		7.3 Article styles for post.hbs & page.hbs
+============================================================================================================================*/
+.oak-main > .oak-article {
+	padding-top: @global_spacing;
+
+	.oak-article-content {
+		padding-bottom: @global_spacing;
+		margin-bottom: @global_spacing;
+		border-bottom: 1px solid #ddd;
+		border-top: 1px solid #ddd;
+	}
+
+	.oak-mobile-share {
+		margin: @global_spacing 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.oak-article-footer {
+
+		h3 {
+			margin: 0;
+		}
+
+		hr {
+			margin: @global_spacing / 2 0;
+		}
+	}
+}
+
+.oak-article-author {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	clear: both;
+	
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(255, 255, 255, 0.8);
+	}
+
+	.oak-article-author-image  {
+		position: relative;
+		float: left;
+		width: 100%;
+		background-size: cover;
+		background-position: 50% 50%;
+
+		a {
+			position: relative;
+			z-index: 1;
+			height: 6rem;
+			width: 6rem;
+			margin:1rem;
+			display: inline-block;
+			border-radius: 100%;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+	}
+
+	.oak-article-author-info {
+		position: relative;
+		float: left;
+		margin: 1rem;
+		z-index: 1;
+		
+		a {
+			padding: 0;
+		}		
+
+		h3 {
+			margin: 0;
+		}
+	}
+}
+
+/* ========================================================================================================================
+		7.4	Featured article styles
+============================================================================================================================*/
+.featured {
+	.oak-article-title {
+		position: relative;
+		&:before {
+			content: "FEATURED \f24e";
+			font-size: .7rem;
+			line-height: .8rem;
+			display: block;
+			margin-left: 2px;
+			font-family: "Ionicons";
+		}
+	}
+}
+/* ========================================================================================================================
+		7.5	Responsive google maps styles
+============================================================================================================================*/
+.oak-google-maps {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+.oak-google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+/* ========================================================================================================================
+		7.6	Previous and next posts styles
+============================================================================================================================*/
+.oak-previous-post-wrapper, .oak-next-post-wrapper {
+	width: 50%;
+	display: inline-block;
+}
+
+.oak-previous-post-wrapper {
+	padding-left: @global_spacing / 2;
+	float: right;
+}
+
+.oak-next-post-wrapper {
+	padding-right: @global_spacing / 2;
+	float: left;
+}
+
+.oak-previous-next-post-full-width {
+	width: 100%;
+	display: block;
+	padding: 0;
+}
+
+.oak-previous-post, .oak-next-post {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: @global_spacing;
+	padding: @global_spacing / 2 0 ;
+	border: 1px solid #ddd;
+	text-align: center;
+	border-radius: 2px;
+	.transition(.2s, ease);
+
+	&:hover {
+		h2 {
+			color:inherit;
+		}
+	}
+
+	h2 {
+		color: @text_color;
+		margin: 0;
+		margin-top: @global_spacing / 4;
+		.transition(.2s, ease);
+	}
+
+	strong, time {
+		color: @text_color; 
+	}
+
+	hr {
+		width: 15%;
+		margin: @global_spacing / 4 auto !important;
+		border-top-color: @text_color;
+	}
+
+	a {
+		background: none;
+		border: none;
+		white-space: nowrap;
+  		overflow: hidden;
+  		text-overflow: ellipsis;
+	}
+
+	.oak-previous-post-background, .oak-next-post-background {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+    	opacity: 0.2;
+    	background-size: cover;
+    	background-position: 50% 50%;
+	}
+}
+/* ========================================================================================================================
+	8. Pagination styles
+============================================================================================================================*/
+.oak-pagination {
+	position: relative;
+	margin: @global_spacing * 2 0;
+	width: 100%;
+	text-align: center;
+
+	.page-number {
+		display: none;
+	}
+
+	.older-posts, .newer-posts {
+		.oak-button;
+		color: @text_color;
+	}
+
+	.newer-posts {
+		margin-left: -8px;
+	}
+}
+
+/* ========================================================================================================================
+	9. Footer styles
+============================================================================================================================*/
+.oak-footer {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #ddd;
+	padding: @global_spacing / 4 0;
+	text-align: center;
+	font-size: 0.8rem;
+
+	p {
+		margin: @global_spacing / 4 0 0 0;
+	}
+}
+
+/* ========================================================================================================================
+	10. Social buttons
+============================================================================================================================*/
+.oak-social-share {
+	display: inline-block;
+
+	span {
+		padding: 6px 15px 6px 0;
+	}
+}
+
+.oak-button-social {
+	text-align: center;
+	border-color: transparent !important;
+
+	&:before {
+		width: 1rem;
+	}
+
+	&.oak-twitter:hover {
+		border-color: #00aced;
+		background: #00aced;
+		color: #fff;
+
+		&:before {
+			content: "\f243";
+		}
+
+	}
+
+	&.oak-facebook:hover {
+		border-color: #3b5998;
+		background: #3b5998;
+		color: #fff;
+
+		&:before {
+			content: "\f231";
+		}
+	}
+
+	&.oak-google-plus:hover {
+		border-color: #dd4b39;
+		background: #dd4b39;
+		color: #fff;
+
+		&:before {
+			content: "\f235";
+		}
+	}
+
+	&.oak-linkedin {
+		border-color: #007bb6;
+		background: #007bb6;
+		color: #fff;
+
+		&:before {
+			content: "\f239";
+		}
+	}
+}
+
+
+/* ========================================================================================================================
+	11. Responsive styles
+============================================================================================================================*/
+/* ========================================================================================================================
+		11.1 Tablets, desktops & up
+============================================================================================================================*/
+@media (min-width: 1000px) {
+	body {
+		&.oak-navigation-active {
+			.oak-header {
+				*:not(.oak-overlay) {
+					opacity: 0;
+					-ms-transform: scale(.9,.9);
+	    			-webkit-transform: scale(.9,.9); 
+	    			transform: scale(.9,.9);
+				}
+
+				.oak-overlay {
+					opacity: .98;
+				}
+			}
+
+			.oak-navigation {			
+				left: 0%;
+			}		
+		}
+	}
+
+	.oak-subscribe {
+		margin-top: -2px;
+	}
+}
+
+@media (min-width: 768px) {
+	.oak-hide-on-desktop {
+		display: none !important;
+	}
+
+	.oak-articles-column > .oak-article {
+		padding-bottom: @global_spacing;
+
+		&:hover {
+			.oak-article-footer {
+				opacity: 1;
+				max-height: 10rem;
+
+				hr {
+					margin: @global_spacing 0;
+				}
+			}
+		}
+
+		.oak-article-footer {
+			max-height: 0rem;
+			opacity: 0;
+			overflow: hidden;
+			.transition( .6s, cubic-bezier(.42,.66,.14,1));
+
+			hr {
+				margin: 0;
+				.transition( .4s, cubic-bezier(.42,.66,.14,1));
+			}
+		}		
+	}
+}
+
+/* ========================================================================================================================
+		11.2 Tablets, small desktops, phones & down
+============================================================================================================================*/
+@media (max-width: 1000px) {
+	body {
+		position: relative;
+
+		&.oak-navigation-active {
+			.oak-navigation {			
+				-webkit-transform: translate3D(0%,0,0);
+						transform: translate3D(0%,0,0);
+				position: fixed;
+				z-index: 9;
+			}		
+		}
+	}
+
+	.oak-header {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding: 0 @global_spacing * 2;
+		
+		.oak-inner {
+			max-width: none;
+			width: 100%;
+		}
+
+		.oak-get-in-touch {
+			position: relative;
+			margin-top: @global_spacing * 2;
+			z-index: 0;	
+		}
+	}
+
+	.oak-navigation {
+		position: absolute;
+		padding: 0 @global_spacing / 2;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		-webkit-transform: translate3D(-100%,0,0);
+				transform: translate3D(-100%,0,0);
+		opacity: 1;
+
+		-webkit-backface-visibility: hidden;
+
+		ul  {
+			text-align: center;
+		}
+		
+	}
+	
+	.oak-main {
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+
+	.oak-main > header .oak-post-search {
+		margin-top: 0;
+	}
+
+	.oak-main > header .oak-post-search input {
+		max-width: 13rem;
+	}
+}
+/* ========================================================================================================================
+		11.3 Small tablets, phones & down
+============================================================================================================================*/
+@media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+
+	.oak-navigation ul li {
+		padding: 0;
+		border: none;
+	}
+
+	.oak-hide-on-mobile {
+		display: none !important;
+	}
+
+	.oak-vertical-separator {
+		display: none;
+	}
+
+	.oak-main > header .oak-post-search {
+		width: 100%;
+	}
+
+	.oak-main > header .oak-post-search input {
+		max-width: none;
+		float: left;
+		width: 100%;
+		display: block;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.oak-main > header .oak-post-search > .oak-search-icon {
+		position: absolute;
+		right: 0;
+	}
+
+	.oak-search-results {
+		width: 100%;
+		padding: 0 @global_spacing * 2;
+	}
+
+	.articles-column:first-child {
+		width: 100%;
+	}
+
+	.oak-main .oak-articles-column {
+		width: 100%;
+
+		&:nth-child(2) {
+			display: none;
+		}
+
+		.oak-article {
+			margin-top: @global_spacing;
+			padding-bottom: 0;
+			border: none;
+			border-top: 1px solid #ddd;
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+
+	.oak-previous-post-wrapper, .oak-next-post-wrapper {
+		width: 100%;
+		display: block;
+		padding: 0;
+		float: none;
+	}
+}
+
+@media (max-width: 655px) {
+	.oak-header {
+		padding: 0 @global_spacing / 2;			
+	}
+
+	.oak-navigation-button {
+		top: @global_spacing / 2;
+		left: @global_spacing / 2;
+	}
+
+	.oak-main > header {
+		padding: @global_spacing / 2 @global_spacing /2;
+	}
+
+	.oak-button-image, .oak-main-header-left-item, .oak-subscribe {
+		display: none !important;
+	}
+
+	pre {
+		padding: 0;
+	}
+
+	blockquote {
+		padding: @global_spacing / 8 0 @global_spacing / 8 @global_spacing / 2;
+	}
+
+	.oak-search-results {
+		padding: 0 @global_spacing / 2;
+	}
+		
+	.oak-article {
+		width: 100%;
+		padding: @global_spacing / 2;
+		padding-top: 0;
+
+		&:first-child {
+			padding-top: 0;
+		}
+
+		&:hover {
+			box-shadow: none;
+		}
+
+		.oak-article-cover {
+			border-radius: 0px;
+			margin: 0 -@global_spacing / 2;
+		}
+	}
+
+}
+
+@media (max-width: 315px) {
+	.oak-post-search {
+		display: none;
+	}
+}
+
+
+// ========================================================================================================================
+//	Mixins
+//=========================================================================================================================
+// ========================================================================================================================
+//		Flat UI colors http://flatuicolors.com/
+//=========================================================================================================================
+@clouds: #ecf0f1;
+@silver: #bdc3c7;
+@concrete: #95a5a6;
+@asbestos: #7f8c8d;
+@turquoise: #1abc9c;
+@green_sea: #16a085;
+@emerald: #2ecc71;
+@nephritis: #27ae60;
+@peter_river: #3498db;
+@belize_hole: #2980b9;
+@amethyst: #9b59b6;
+@wisteria: #8e44ad;
+@wet_asphalt: #34495e;
+@midnight_blue: #2c3e50;
+@coal: #23241f;
+@sun_flower: #f1c40f;
+@orange: #f39c12;
+@carrot: #e67e22;
+@pumpkin: #d35400;
+@alizarin: #e74c3c;
+@pomegranate: #c0392b;
+
+//========================================================================================================================
+//		Variables
+//========================================================================================================================
+@left_header_width: 27%;
+@global_spacing: 2rem;
+@heading_color: @midnight_blue;
+@text_color: @wet_asphalt;
+
+
+
+

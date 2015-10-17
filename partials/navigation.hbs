@@ -1,0 +1,18 @@
+<button class="oak-navigation-button ion-ios-drag"></button>
+<nav class="oak-navigation" role="navigation">
+	<ul>
+		{{! Place for your navigation links}}
+
+		{{! Navigation links for built in ghost navigation (for Ghost version 0.5.9  or later)}}
+		{{#if @blog.navigation}}
+		{{#foreach navigation}}
+		<li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation">
+			<a class="oak-uppercase" href="{{url}}">{{label}}</a>
+		</li>
+		{{/foreach}}
+		{{/if}}
+
+		{{! Bellow here you can manualy add navigation links (for Ghost versions 0.5.8 or prior) }}
+
+	</ul>
+</nav>

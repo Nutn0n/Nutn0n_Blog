@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*!
+
+  Nutn0n Blog - Just another science blog.
+  Designed by @nutn0n | www.nutn0n.com
+
+*/
+
+/* Copyright by Google Inc.  */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300);
+
+/* Copyright by LETSEGO  */
+
+@font-face {
+    font-family: "Thai Sans Neue Fixed";
+    src: url("../fonts/ThaiSansNeue-fixed.woff") format("woff"),
+           url("../fonts/ThaiSansNeue-fixed.svg#ThaiSansNeue-Light") format("svg"),
+           url("../fonts/ThaiSansNeue-fixed.ttf") format("truetype");
+}

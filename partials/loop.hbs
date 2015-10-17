@@ -1,0 +1,77 @@
+{{!> Articles are divided in two collums}}
+<div class="oak-articles-columns">
+
+	{{!> First columns of articles}}
+	{{!> All even numbered articles (2nd, 4th, 6th...) in this column are hidden on devices with width > 768px}}
+	<div class="oak-articles-column">
+		{{#foreach posts}}
+		<article class="oak-article {{#if @even}}oak-hide-on-desktop{{/if}} {{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
+			<header>
+				{{#if image}}
+				<div class="oak-article-cover">
+					<img src={{image}} alt="{{image.name}}"/>
+					<a href="{{{url}}}">Read More</a>
+				</div>
+				{{/if}}
+				<h1 class="oak-article-title" itemprop="headline">
+					<a href="{{{url}}}" rel="bookmark">
+						{{title}}
+					</a>
+				</h1>
+				{{#if tags}}
+				<div class="oak-article-tags ion-ios-grid-view-outline">
+					{{tags separator=" / "}}
+				</div>
+				{{/if}}
+			</header>
+			<div class="oak-article-content sukhumvit" itemprop="articleBody">
+			{{excerpt words="40"}}  <a href="{{{url}}}" class="ion-ios-arrow-right"></a><br/>
+			</div>
+			<div class="oak-social-share">
+				{{> social-share}}
+			</div><hr/>
+		</article>
+		{{/foreach}}
+	</div>
+
+	{{!> Second column of articles}}
+	{{!> This column only consists even numbered articles (2nd, 4th, 6th...) and it is hiden on devices with width < 768px}}
+	<div class="oak-articles-column oak-hide-on-mobile">
+		{{#foreach posts}}
+		{{#if @even}}
+		<article class="oak-article  {{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
+			<header class="article-header">
+				{{#if image}}
+				<div class="oak-article-cover">
+					<img src={{image}} alt="{{image.name}}"/>
+					<a href="{{{url}}}">Read More</a>
+				</div>
+				{{/if}}
+				<h1 class="oak-article-title" itemprop="headline">
+					<a href="{{{url}}}" rel="bookmark">
+						{{title}}
+					</a>
+				</h1>
+				{{#if tags}}
+				<div class="oak-article-tags ion-ios-grid-view-outline">
+					{{tags separator=" / "}}
+				</div>
+				{{/if}}
+			</header>
+			<div class="oak-article-content sukhumvit" itemprop="articleBody">
+				{{excerpt words="40"}}  <a href="{{{url}}}" class="ion-ios-arrow-right"></a><br/><br/>
+				<div class="oak-social-share">
+					{{> social-share}}
+				</div><hr/>
+			</div>
+		</article>
+		{{/if}}
+		{{/foreach}}
+	</div>
+</div>
+
+{{#if pagination}}
+<div class="oak-pagination">
+	{{{pagination}}}
+</div>
+{{/if}}

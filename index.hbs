@@ -1,0 +1,36 @@
+{{!< default}}
+
+<header  role='banner' class="oak-header
+	{{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+	<div class="oak-inner">
+		<div>
+			{{#if @blog.logo}}
+				<a href="{{@blog.url}}"><img class="oak-hide-on-mobile oak-header-logo" src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+			{{/if}}
+			<h1 class="oak-header-title">
+				<a href="{{@blog.url}}">{{@blog.title}}</a>
+			</h1>
+			<p  class="mobile-margin"style="margin:0 auto 0;">{{@blog.description}}</p>
+		<div class="oak-hide-on-mobile">
+				<br/><br/>
+			<a class="twitter-timeline" data-border-color="#fcfcfc" data-chrome="transparent nofooter noheader noborders" aria-polite="polite" href="https://twitter.com/Nutn0n" data-widget-id="546198285711450113">
+			</a>
+		</div>
+		</div>
+	</div>
+	{{> get-in-touch}}
+</header>
+
+<main role="main" class="oak-main">
+	<span class="oak-vertical-separator"></span>
+	<header class="oak-hide-on-mobile">
+		<form class="oak-post-search" role="search">
+			<input type="text" class="oak-search" placeholder="Search posts here">
+			<span class="oak-search-icon ion-ios-search"></span>
+			<div class="oak-search-results"></div>
+		</form>
+	</header>
+	{{> loop}}
+
+	{{> footer}}
+</main>

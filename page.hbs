@@ -1,0 +1,57 @@
+{{!< default}}
+
+{{#post}}
+<header  role='banner' class="oak-header" style="background-image: 
+	{{#if image}}url({{image}})
+	{{else}}
+		{{#if @blog.cover}}url({{@blog.cover}})
+		{{else}}none
+		{{/if}}
+	{{/if}}">
+	<span class="oak-overlay"></span>
+	<div class="oak-inner">
+		<div>
+			{{#if @blog.logo}}
+				<a href="{{@blog.url}}"><img class="oak-header-logo" src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+			{{/if}}
+			<h1 class="oak-header-title">
+				<a href="{{@blog.url}}">{{@blog.title}}</a>
+			</h1>
+			<hr>
+			<p>{{@blog.description}}</p>
+		</div>
+	</div>	
+	{{> get-in-touch}}
+</header>
+{{/post}}
+
+<main role="main" class="oak-main">
+	{{#post}}
+	<header>
+		<div class="oak-inner">
+			<a target="_blank" href="{{@blog.url}}/rss" class="oak-button oak-subscribe ion-social-rss-outline" title="RSS Feed">
+				<span class="oak-hide-on-mobile">Subscribe</span>
+			</a>
+			<form class="oak-post-search" role="search">
+				<input type="text" class="oak-search" placeholder="Search posts here">
+				<span class="oak-search-icon ion-ios-search"></span>
+				<div class="oak-search-results"></div>
+			</form>
+		</div>
+	</header>
+
+	<article class="oak-article">
+		<div class="oak-inner">
+			<header>
+				<h1 class="oak-article-title">{{title}}</h1>
+			</header>	
+			
+			<div class="oak-article-content">
+				{{content}}
+			</div>		
+		</div>		
+	</article>
+	{{/post}}
+
+	{{> footer}}
+</main>

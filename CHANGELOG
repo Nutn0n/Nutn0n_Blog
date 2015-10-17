@@ -1,0 +1,16 @@
+v1.1.1
+------------------------------------------
+- Add jQuery (1.11.3), because it's removed from {{ghost_foot}} in Ghost 0.7.0
+
+v1.1
+------------------------------------------
+- Add support for official Ghost navigation
+- Add next and previous post links
+- ADd code higlighting
+- Add lightbox plugin for images inside post
+- Add tweet button for quotes
+- Add new color scheme Asbestos
+- Update styles for navigation and top bar
+- Update Facebook comments
+- Fix numerous visual issues
+- Additional optimizations (improved performance on mobile devices)
