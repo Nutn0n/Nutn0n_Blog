@@ -979,12 +979,12 @@ a.oak-button:hover,
 
 .oak-main > .oak-article .oak-article-content a {
    color:#0085CF!important;
-   text-decoration: none;
+   text-decoration:none;
 }
 
-.oak-main > .oak-article .oak-article-content a {
+.oak-main > .oak-article .oak-article-content a:hover {
    color:#0085CF;
-   text-decoration: underline;
+   text-decoration:underline;
 }
 
 
