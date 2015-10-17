@@ -839,6 +839,9 @@ a.oak-button:hover,
 .oak-article .oak-article-content {
   text-align: left;
   margin: 1rem 0;
+  line-height: 2em;
+  
+
 }
 .oak-article .oak-article-tags a {
   text-transform: uppercase;
