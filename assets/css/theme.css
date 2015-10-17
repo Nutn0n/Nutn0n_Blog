@@ -976,6 +976,18 @@ a.oak-button:hover,
   border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd;
 }
+
+.oak-main > .oak-article .oak-article-content a {
+   color:#0085CF!important;
+   text-decoration: none;
+}
+
+.oak-main > .oak-article .oak-article-content a {
+   color:#0085CF;
+   text-decoration: underline;
+}
+
+
 .oak-main > .oak-article .oak-mobile-share {
   margin: 2rem 0;
   width: 100%;
