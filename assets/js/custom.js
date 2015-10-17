@@ -31,7 +31,7 @@
         }
 
         // Add Tweet button to blockqoute
-  
+
         $('blockquote').each(function() {
             var tweet = $(this).text() + " - " + window.location;
             var tweet_link = "http://twitter.com/home/?status=" + encodeURIComponent(tweet);
