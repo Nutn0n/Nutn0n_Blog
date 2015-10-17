@@ -13,11 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
       { name: 'forcemouseup',   from: 'forcemousedown', to: 'mousedown' }
     ], callbacks: {
       // trigger navigation active
-      onforcemousedown: function() { forcetouch.className = "oak-navigation-active";  },
-      // change button to close button
-      onforcemousedown: function() { earth.className = "ion-ios-close-empty";  },
-
-    }
+      onforcemousedown: function() { forcetouch.className = "oak-navigation-active";
+                                                                  earth.className = "ion-ios-close-empty";     }
+                          }
   });
 
   forcemenu.addEventListener("webkitmouseforcedown", function(ev) {
