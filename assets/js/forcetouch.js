@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var forcemenu = document.querySelector(".oak-inner");
   var forcetouch = document.querySelector(".forcetouchsupport");
-  var earth = document.querySelector("ion-ios-drag");
 
   var fsm = StateMachine.create({
     initial: 'rest',
@@ -13,8 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
       { name: 'forcemouseup',   from: 'forcemousedown', to: 'mousedown' }
     ], callbacks: {
       // trigger navigation active
-      onforcemousedown: function() { forcetouch.className = "oak-navigation-active";
-                                                                  earth.className = "ion-ios-close-empty";     }
+      onforcemousedown: function() { forcetouch.className = "oak-alizarin home-template oak-navigation-active";  }
                           }
   });
 
