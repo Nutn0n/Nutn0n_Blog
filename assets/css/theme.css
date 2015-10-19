@@ -408,7 +408,7 @@ code,
 kbd,
 pre,
 samp {
-  color: #2c3e50;
+  color: #666666;
   font-size: .95rem;
   text-align: left;
 }
@@ -456,7 +456,7 @@ a.oak-button,
   position: relative;
   font-weight: 200;
   background: rgba(0, 0, 0, 0.0);
-  color: #2c3e50;
+  color: #666666;
   border: 1px solid #333333;
   padding: 6px 15px;
   outline: none;
@@ -870,7 +870,7 @@ a.oak-button:hover,
   display: inline-block;
   position: relative;
   font-weight: 300;
-  color: #2c3e50;
+  color: #666666;
   border: 1px solid #333333;
   padding: 6px 15px;
   outline: none;
@@ -1177,7 +1177,7 @@ a.oak-button:hover,
   position: relative;
   font-weight: 200;
   background: #fff;
-  color: #2c3e50;
+  color: #333333;
   border: 1px solid #333333;
   padding: 6px 15px;
   outline: none;
