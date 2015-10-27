@@ -1,7 +1,7 @@
 {{!< default}}
 
 {{#post}}
-<header  role='banner' class="oak-header" style="background-image: 
+<header  role='banner' class="oak-header" style="background-image:
 	{{#if image}}url({{image}})
 	{{else}}
 		{{#if @blog.cover}}url({{@blog.cover}})
@@ -20,7 +20,7 @@
 			<hr>
 			<p>{{@blog.description}}</p>
 		</div>
-	</div>	
+	</div>
 	{{> get-in-touch}}
 </header>
 {{/post}}
@@ -44,12 +44,12 @@
 		<div class="oak-inner">
 			<header>
 				<h1 class="oak-article-title">{{title}}</h1>
-			</header>	
-			
+			</header>
+
 			<div class="oak-article-content">
 				{{content}}
-			</div>		
-		</div>		
+			</div>
+		</div>
 	</article>
 	{{/post}}
 

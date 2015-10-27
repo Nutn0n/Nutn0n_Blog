@@ -10,7 +10,6 @@
 	<br/><br/>
 	<header>
 		<div class="oak-inner">
-
 			{{! Displayed on desktop }}
 			<div class="oak-social-share oak-hide-on-mobile">
 				<span>Share this post</span>
@@ -20,7 +19,6 @@
 			{{#if author.image}}
 				<a href="{{author.url}}" class="oak-button oak-button-image oak-hide-on-desktop" style="background: url({{author.image}});"> &nbsp; &nbsp;</a>
 			{{/if}}
-
 			<form class="oak-post-search oak-hide-on-mobile" role="search">
 				<input type="text" class="oak-search" placeholder="Search posts here">
 				<span class="oak-search-icon ion-ios-search"></span>
@@ -33,6 +31,7 @@
 	<article class="oak-article {{post_class}}">
 		<div class="oak-inner">
 		<header>
+				<h1 class="oak-article-title-fullscreen">{{title}}</h1>
 			{{#if tags}}
 			<div class="oak-article-tags ion-ios-grid-view-outline">
 				{{tags separator=" / "}}
@@ -41,7 +40,6 @@
 		</header>
 
 		<div class="oak-article-content">
-			<h1 class="oak-article-title">{{title}}</h1>
 			{{content}}
 		</div>
 
