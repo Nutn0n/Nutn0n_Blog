@@ -685,6 +685,15 @@ a.oak-button:hover,
   width: 73%;
   overflow: hidden;
 }
+
+.oak-main-fullscreen {
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 100%;
+  overflow: hidden;
+}
+
 .oak-main .oak-inner {
   width: 100%;
   max-width: 800px;
