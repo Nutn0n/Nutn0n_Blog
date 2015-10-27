@@ -1,27 +1,7 @@
 {{!< default}}
 
 {{#post}}
-<header  role='banner' class="oak-header" style="background-image:
-	{{#if image}}url({{image}})
-	{{else}}
-		{{#if @blog.cover}}url({{@blog.cover}})
-		{{else}}none
-		{{/if}}
-	{{/if}}">
-	<span class="oak-overlay mobile-minimal"></span>
-	<div class="oak-inner mobile-minimal">
-		<div>
-			{{#if @blog.logo}}
-				<a href="{{@blog.url}}"><img class="oak-header-logo oak-hide-on-mobile" src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
-			{{/if}}
-			<h1 class="oak-header-title oak-hide-on-mobile">
-				<a href="{{@blog.url}}">{{@blog.title}}</a>
-			</h1>
-			<h2 class="oak-uppercase">" {{title}} "</h2>
-		</div>
-	</div>
-	{{> get-in-touch}}
-</header>
+
 {{/post}}
 
 
