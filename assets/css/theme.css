@@ -291,7 +291,7 @@ h5,
 h6 {
   color: #333333;
   font-family: "Kanit","Helvetica Neue",sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .sukhumvit { font-family: "Kanit","Helvetica Neue",sans-serif; font-weight: 100; }
@@ -627,7 +627,7 @@ a.oak-button:hover,
   -o-transition: 1s cubic-bezier(0.42, 0.66, 0.14, 1);
   transition: 1s cubic-bezier(0.42, 0.66, 0.14, 1);
 }
-.oak-header h1,
+.oak-header Kanit,
 .oak-header h2,
 .oak-header h3,
 .oak-header h4,
