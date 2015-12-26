@@ -31,15 +31,10 @@
         }
 
         // Add Tweet button to blockqoute
-/*
-        $('blockquote').each(function() {
-            var tweet = $(this).text() + " - " + window.location;
-            var tweet_link = "http://twitter.com/home/?status=" + encodeURIComponent(tweet);
-            $(this).append('<a href="' + tweet_link + '" target="_blank" title="Tweet this quote" class="ion-social-twitter oak-tweet"></a>');
-        });
+
+  
     });
 
-    */
 
     $(".oak-navigation-button").on("click", function() {
     	$("body").toggleClass('oak-navigation-active');
