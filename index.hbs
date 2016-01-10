@@ -10,45 +10,12 @@
 			<h1 class="oak-header-title">
 				<a href="{{@blog.url}}">{{@blog.title}}</a>
 			</h1>
-		<!---	<p  class="mobile-margin"style="margin:0 auto 0;">{{@blog.description}}</p> --->
-			<p  class="mobile-margin"style="margin:0 auto 0;"><div id="countdown" style="  font-family:'Kanit'!important; " ></div></p>
+<p  class="mobile-margin"style="margin:0 auto 0;">{{@blog.description}}</p>
+
 		<div class="oak-hide-on-mobile">
 				<br/><br/>
 			<a class="twitter-timeline" data-border-color="#fcfcfc" data-chrome="transparent nofooter noheader noborders" aria-polite="polite" href="https://twitter.com/Nutn0n" data-widget-id="546198285711450113">
 			 	</a>
-
-
-				<script>
-				    // นับถอยหลัง
-				    var suannongame = new Date('1/1/2016 0:01 AM');
-				    var _second = 1000;
-				    var _minute = _second * 60;
-				    var _hour = _minute * 60;
-				    var _day = _hour * 24;
-				    var timer;
-				    function showRemaining() {
-				        var today = new Date();
-				        var distance = suannongame - today;
-				        if (distance < 0) {
-				            clearInterval(timer);
-				            document.getElementById('countdown').innerHTML = 'สวัสดีปีใหม่ 2016';
-				            return;
-				        }
-				        var days = Math.floor(distance / _day);
-				        var hours = Math.floor((distance % _day) / _hour);
-				        var minutes = Math.floor((distance % _hour) / _minute);
-				        var seconds = Math.floor((distance % _minute) / _second);
-				        document.getElementById('countdown').innerHTML = days + ' วัน ';
-				        document.getElementById('countdown').innerHTML += hours + ' ชั่วโมง <br/> ';
-				        document.getElementById('countdown').innerHTML += minutes + ' นาที ';
-				        document.getElementById('countdown').innerHTML += seconds + ' วินาที';
-				    }
-				    timer = setInterval(showRemaining, 1000);
-				</script>
-
-
-
-
 
 		</div>
 		</div>
