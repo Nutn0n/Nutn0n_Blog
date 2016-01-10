@@ -23,7 +23,6 @@
             });
         }
 
-/*
         // Conditional load of higlight.js if there is <pre> element in document (used for code highlighting)
         if($('pre').length > 0) {
             include('/assets/js/highlight.min.js',function(){
@@ -32,7 +31,6 @@
         }
 
         // Add Tweet button to blockqoute
-*/
 
     });
 
@@ -79,12 +77,12 @@
     // Function for conditional loading javascript files
     // @param {string} script - URI of javascript file
     // @param {function} callback - optional callback function
-/*  function include(script,callback){
+function include(script,callback){
         $.getScript(script, function() {
             if(typeof callback == 'function')
             callback.apply({},arguments);
         });
-    } */
+    }
 
     // Function for basic mobile browser detection
     function isMobileDevice() {
