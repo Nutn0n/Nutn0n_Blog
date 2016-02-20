@@ -530,8 +530,14 @@ padding: 5px 7px 5px;
 margin-left: 5px;
 box-shadow: 0 0 0 1px #333;
 background-color:#fff;
-outline:none;
+cursor:pointer;
 
+}
+
+.oak-navigation-button:hover {
+
+color:#0085CF!important;
+box-shadow: 0 0 0 1px #0085CF!important;
 
 }
 
