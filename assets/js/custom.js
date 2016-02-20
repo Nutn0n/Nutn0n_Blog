@@ -37,7 +37,7 @@
 
     $(".oak-navigation-button").on("click", function() {
     	$("body").toggleClass('oak-navigation-active');
-        $(".oak-navigation-button").toggleClass('ion-ios-drag ion-ios-close-empty');
+        $(".oak-navigation-button").text('Close');
     });
 
     $(".oak-search").on("keyup", function () {
