@@ -28,7 +28,8 @@ UNDER MIT LICENSE
   border-color: #373737;
 }
 .oak-alizarin .oak-header {
-  background-color: #ffffff;
+  background: rgba(255,255, 255, 0.9);
+  -webkit-backdrop-filter:blur(4px);
 }
 .oak-alizarin .oak-article .oak-article-title a:hover {
   color: #373737;
@@ -513,13 +514,13 @@ a.oak-button:hover,
 
 color:#666!important;
 box-shadow: 0 0 0 1px #666!important;
-	
+
 }
 
 
 .oak-navigation-button {
 
-font-size:14px; 
+font-size:14px;
 color:#333;
 z-index: 200;
 font-weight: 300;
