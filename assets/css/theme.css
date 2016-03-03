@@ -1334,6 +1334,15 @@ box-shadow: 0 0 0 1px #0085CF!important;
 .oak-social-share span {
   padding: 6px 15px 6px 0;
 }
+
+.oak-social-share a{
+  color:#666!important;
+}
+
+.oak-social-share a:hover{
+  color:#fff!important;
+}
+
 .oak-button-social {
   text-align: center;
   border-color: transparent !important;
@@ -1344,7 +1353,7 @@ box-shadow: 0 0 0 1px #0085CF!important;
 .oak-button-social.oak-twitter:hover {
   border-color: #00aced;
   background: #00aced;
-  color: #fff;
+  color: #fff!important;
 }
 .oak-button-social.oak-twitter:hover:before {
   content: "\f243";
