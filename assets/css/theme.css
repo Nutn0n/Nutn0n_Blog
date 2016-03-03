@@ -510,7 +510,7 @@ a.oak-button:hover,
 
   color:#0085CF;
   text-decoration:none;
-  
+
 }
 
 
@@ -918,8 +918,18 @@ box-shadow: 0 0 0 1px #0085CF!important;
   margin: 1rem 0;
   line-height: 1.5em;
   font-weight:200;
-
 }
+
+.oak-article .oak-article-content a {
+  color:#0085CF;
+  text-decoration: none;
+}
+
+.oak-article .oak-article-content a:hover {
+  color:#0085CF;
+  text-decoration: underline;
+}
+
 .oak-article .oak-article-tags a {
   text-transform: uppercase;
   font-size: .75rem;
