@@ -13,8 +13,16 @@ UNDER MIT LICENSE
 @import url("normalize.css");
 
 .oak-alizarin a {
- color: #373737;
+ color: #0085CF;
+ text-decoration: none;
 }
+
+.oak-alizarin a:hover {
+ color: #0085CF;
+ text-decoration: underline;
+}
+
+
 .oak-alizarin blockquote {
   border-left: 5px solid #373737;
 }
