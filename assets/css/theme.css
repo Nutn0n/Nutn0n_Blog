@@ -909,7 +909,7 @@ box-shadow: 0 0 0 1px #0085CF!important;
   color:#666;
 }
 
-.oak-article .oak-article-tags a {
+.oak-article .oak-article-tags a:hover {
   text-transform: uppercase;
   text-decoration: underline;
   color:#0085CF;
