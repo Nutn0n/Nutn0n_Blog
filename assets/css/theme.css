@@ -906,7 +906,17 @@ box-shadow: 0 0 0 1px #0085CF!important;
   font-size: .75rem;
   padding: 0 6px;
   line-height: 30px;
+  color:#666;
 }
+
+.oak-article .oak-article-tags a {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color:#0085CF;
+}
+
+
+
 /* ========================================================================================================================
 		7.2 Article styles for listings pages (index.hbs, tag.hbs, author.hbs)
 ============================================================================================================================*/
