@@ -13,13 +13,11 @@ UNDER MIT LICENSE
 @import url("normalize.css");
 
 .oak-alizarin a {
- color: #0085CF;
  text-decoration: none;
 }
 
 .oak-alizarin a:hover {
- color: #0085CF;
- text-decoration: underline;
+
 }
 
 
