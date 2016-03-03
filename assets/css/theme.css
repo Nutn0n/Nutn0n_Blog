@@ -41,6 +41,7 @@ UNDER MIT LICENSE
 }
 .oak-alizarin .oak-article .oak-article-title a:hover {
   color: #373737;
+  text-decoration: none;
 }
 .oak-alizarin .oak-previous-post:hover,
 .oak-alizarin .oak-next-post:hover {
