@@ -1450,7 +1450,7 @@ box-shadow: 0 0 0 1px #0085CF!important;
     transform: translate3D(0%, 0, 0);
     position: fixed;
     z-index: 9;
-    background: rgba(255,255, 255, 0.0);
+    background: rgba(255,255, 255, 0.6);
 
   }
   .oak-header {
