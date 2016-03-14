@@ -307,7 +307,7 @@ img {
   position: relative;
   max-width: 100%;
   height: auto;
-  border-radius: 2px;
+  border-radius: 1px;
 }
 input,
 textarea {
@@ -322,10 +322,10 @@ hr {
 a {
   padding: 0 2px;
   text-decoration: none;
-  -webkit-transition: 0.2s ease;
-  -moz-transition: 0.2s ease;
-  -o-transition: 0.2s ease;
-  transition: 0.2s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 a:hover {
   color:#0088CC;
