@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var body = $('.oak-header');
+  var body = $('body');
   var block = $('.jwc8-block');
   var highlight = $('.highlight');
   var logo = $('#jwc8-logo');
