@@ -4,7 +4,7 @@ $(document).ready(function() {
   var highlight = $('.highlight');
   var logo = $('#jwc8-logo');
   var name = $('#jwc8-name');
-  var intensity = 20;
+  var intensity = 10;
   $('body').mousemove(function(event) {
     cx = Math.ceil(body.width() / 2.0);
     cy = Math.ceil(body.height() / 2.0);
