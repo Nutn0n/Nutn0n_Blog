@@ -1,9 +1,8 @@
 (function ($) {
     $(document).ready(function() {
 
+    // Code when document ready 
       
-        // Add Tweet button to blockqoute
-
     });
 
 
