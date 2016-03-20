@@ -1,35 +1,7 @@
 (function ($) {
     $(document).ready(function() {
 
-        // Initialize fitVids
-        $("article").fitVids();
-
-        // Conditional load of Magnific PopUp on non mobile devices
-        if (!isMobileDevice()) {
-            include('/assets/js/jquery.magnific-popup.min.js',function(){
-                $("article img").each(function() {
-                    $(this).attr('data-mfp-src', $(this).attr('src'));
-
-                });
-                $("article img").magnificPopup({
-                  type: 'image',
-                  mainClass: 'mfp-with-zoom',
-                  zoom: {
-                    enabled: true,
-                    duration: 300,
-                    easing: 'ease-in-out',
-                  }
-                });
-            });
-        }
-
-        // Conditional load of higlight.js if there is <pre> element in document (used for code highlighting)
-        if($('pre').length > 0) {
-            include('/assets/js/highlight.min.js',function(){
-                hljs.initHighlightingOnLoad();
-            });
-        }
-
+      
         // Add Tweet button to blockqoute
 
     });
