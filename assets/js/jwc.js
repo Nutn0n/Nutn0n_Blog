@@ -1,4 +1,4 @@
-$document).ready(function() {
+$(document).ready(function() {
   var body = $('body');
   var block = $('.jwc8-block');
   var highlight = $('.highlight');
