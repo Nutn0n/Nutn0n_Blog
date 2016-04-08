@@ -66,6 +66,16 @@ a.jwc8-link {
   position: relative;
 }
 
+.jwc8-foreground #jwc8-date{
+  font-family: BoonJot, DJB, sans-serif;
+  text-shadow: 2px 2px 4px #333;
+  display: block;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  position: relative;
+}
+
 .highlight {
   position: relative;
   top: 50%;
