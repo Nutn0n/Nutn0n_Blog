@@ -4,6 +4,7 @@ $(document).ready(function() {
   var highlight = $('.highlight');
   var logo = $('#jwc8-logo');
   var name = $('#jwc8-name');
+  var date = $('#jwc8-date');
   var intensity = 15;
   $('body').mousemove(function(event) {
     cx = Math.ceil(body.width() / 2.0);
@@ -24,6 +25,7 @@ $(document).ready(function() {
     logo.css('box-shadow', logoShadow1 + ', ' + logoShadow2);
     logo.css('transform', 'translateX(' + (tilty*intensity/1.2) + 'px) translateY(' + (-tiltx*intensity/1.2) + 'px)');
     name.css('transform', 'translateX(' + (tilty*intensity/1.1) + 'px) translateY(' + (-tiltx*intensity/1.1) + 'px)');
+    date.css('transform', 'translateX(' + (tilty*intensity/0.8) + 'px) translateY(' + (-tiltx*intensity/0.8) + 'px)');
     //should approximate ratio of site of block
     highlight.css('background-position', -tilty*8*intensity+'px ' + tiltx*5*intensity+'px')
   });
