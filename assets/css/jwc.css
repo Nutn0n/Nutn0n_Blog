@@ -38,6 +38,10 @@ a.jwc8-link {
   padding-right:10%;
   position: relative;
   margin-top:120px;
+    background-image: url(https://jwc8.jwc.in.th/images/landing/logo-bg.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 .jwc8-foreground #jwc8-name {
   font-family: BoonJot, DJB, sans-serif;
@@ -47,10 +51,7 @@ a.jwc8-link {
   font-size: 28px;
   text-align: center;
   position: relative;
-  background-image: url(https://jwc8.jwc.in.th/images/landing/logo-bg.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
+
 }
 .jwc8-foreground #jwc8-info {
   font-family: BoonJot, DJB, sans-serif;
