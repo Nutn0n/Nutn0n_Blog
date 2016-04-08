@@ -32,18 +32,6 @@ a.jwc8-link {
   ransform: translateY(-50%);
 }
 
-.jwc8-foreground #jwc8-free {
- display:block;
- top:0;
- left:5px;
- width:10px;
- height:30px;
-  background-image: url(https://jwc8.jwc.in.th/images/landing/free.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-    position: relative;
-}
 
 .jwc8-foreground img {
   display: block;
