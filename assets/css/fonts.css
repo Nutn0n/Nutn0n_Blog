@@ -7,188 +7,188 @@
 
 */
 
-/* Copyright by Google Inc.  */
+/* Copyright - Google Inc.  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300);
 
-/* Copyright by Cadson Demak  */
+/* Copyright - Cadson Demak  */
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-Thin.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-Thin.ttf) format("truetype");
   font-weight: 100;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-ThinItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-ThinItalic.ttf) format("truetype");
   font-weight: 100;
   font-style: italic; }
-.kanit-100 {
-  font-family: "Kanit";
+.prompt-100 {
+  font-family: "Prompt";
   font-weight: 100;
   font-style: normal; }
 
-.kanit-100i {
-  font-family: "Kanit";
+.prompt-100i {
+  font-family: "Prompt";
   font-weight: 100;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-ExtraLight.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-ExtraLight.ttf) format("truetype");
   font-weight: 200;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-ExtraLightItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-ExtraLightItalic.ttf) format("truetype");
   font-weight: 200;
   font-style: italic; }
-.kanit-200 {
-  font-family: "Kanit";
+.prompt-200 {
+  font-family: "Prompt";
   font-weight: 200;
   font-style: normal; }
 
-.kanit-200i {
-  font-family: "Kanit";
+.prompt-200i {
+  font-family: "Prompt";
   font-weight: 200;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-Light.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-Light.ttf) format("truetype");
   font-weight: 300;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-LightItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-LightItalic.ttf) format("truetype");
   font-weight: 300;
   font-style: italic; }
-.kanit-300 {
-  font-family: "Kanit";
+.prompt-300 {
+  font-family: "Prompt";
   font-weight: 300;
   font-style: normal; }
 
-.kanit-300i {
-  font-family: "Kanit";
+.prompt-300i {
+  font-family: "Prompt";
   font-weight: 300;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-Regular.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-Italic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-Italic.ttf) format("truetype");
   font-weight: 400;
   font-style: italic; }
-.kanit-400 {
-  font-family: "Kanit";
+.prompt-400 {
+  font-family: "Prompt";
   font-weight: 400;
   font-style: normal; }
 
-.kanit-400i {
-  font-family: "Kanit";
+.prompt-400i {
+  font-family: "Prompt";
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-Medium.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-Medium.ttf) format("truetype");
   font-weight: 500;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-MediumItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-MediumItalic.ttf) format("truetype");
   font-weight: 500;
   font-style: italic; }
-.kanit-500 {
-  font-family: "Kanit";
+.prompt-500 {
+  font-family: "Prompt";
   font-weight: 500;
   font-style: normal; }
 
-.kanit-500i {
-  font-family: "Kanit";
+.prompt-500i {
+  font-family: "Prompt";
   font-weight: 500;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-SemiBold.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-SemiBold.ttf) format("truetype");
   font-weight: 600;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-SemiBoldItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-SemiBoldItalic.ttf) format("truetype");
   font-weight: 600;
   font-style: italic; }
-.kanit-600 {
-  font-family: "Kanit";
+.prompt-600 {
+  font-family: "Prompt";
   font-weight: 600;
   font-style: normal; }
 
-.kanit-600i {
-  font-family: "Kanit";
+.prompt-600i {
+  font-family: "Prompt";
   font-weight: 600;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-Bold.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-Bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-BoldItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-BoldItalic.ttf) format("truetype");
   font-weight: 700;
   font-style: italic; }
-.kanit-700 {
-  font-family: "Kanit";
+.prompt-700 {
+  font-family: "Prompt";
   font-weight: 700;
   font-style: normal; }
 
-.kanit-700i {
-  font-family: "Kanit";
+.prompt-700i {
+  font-family: "Prompt";
   font-weight: 700;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-ExtraBold.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-ExtraBold.ttf) format("truetype");
   font-weight: 800;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-ExtraBoldItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-ExtraBoldItalic.ttf) format("truetype");
   font-weight: 800;
   font-style: italic; }
-.kanit-800 {
-  font-family: "Kanit";
+.prompt-800 {
+  font-family: "Prompt";
   font-weight: 800;
   font-style: normal; }
 
-.kanit-800i {
-  font-family: "Kanit";
+.prompt-800i {
+  font-family: "Prompt";
   font-weight: 800;
   font-style: italic; }
 
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-Black.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-Black.ttf) format("truetype");
   font-weight: 900;
   font-style: normal; }
 @font-face {
-  font-family: "Kanit";
-  src: url(../fonts/Kanit/Kanit-BlackItalic.ttf) format("truetype");
+  font-family: "Prompt";
+  src: url(../fonts/Prompt-BlackItalic.ttf) format("truetype");
   font-weight: 900;
   font-style: italic; }
-.kanit-900 {
-  font-family: "Kanit";
+.prompt-900 {
+  font-family: "Prompt";
   font-weight: 900;
   font-style: normal; }
 
-.kanit-900i {
-  font-family: "Kanit";
+.prompt-900i {
+  font-family: "Prompt";
   font-weight: 900;
   font-style: italic; }
