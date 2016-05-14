@@ -300,7 +300,7 @@ h6 {
   font-weight: 200;
 }
 
-.sukhumvit { font-family: "Prompt","Helvetica Neue",sans-serif; font-weight: 100; }
+.sukhumvit { font-family: "Prompt","Helvetica Neue",sans-serif; font-weight: 200!important; }
 
 
 img {
@@ -917,6 +917,14 @@ box-shadow: 0 0 0 1px #0085CF!important;
   line-height: 1.6em;
   font-weight:400;
 }
+
+.oak-article .oak-article-content {
+  text-align: left;
+  margin: 1rem 0;
+  line-height: 1.6em;
+  font-weight:400;
+}
+
 
 .oak-article .oak-article-content a {
   color:#0085CF;
