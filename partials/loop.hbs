@@ -9,10 +9,12 @@
 			<header>
 				{{#if image}}
 				<div class="oak-article-cover">
+					<a href="{{{url}}}">
 					<img src={{image}} alt="{{image.name}}"/>
-					<a href="{{{url}}}">Read More</a>
+					</a>
 				</div>
 				{{/if}}
+				<a href="{{{url}}}">
 				<h1 class="oak-article-title" itemprop="headline">
 					<a href="{{{url}}}" rel="bookmark">
 						{{title}}
@@ -43,8 +45,9 @@
 			<header class="article-header">
 				{{#if image}}
 				<div class="oak-article-cover">
+					<a href="{{{url}}}">
 					<img src={{image}} alt="{{image.name}}"/>
-					<a href="{{{url}}}">Read More</a>
+					</a>
 				</div>
 				{{/if}}
 				<h1 class="oak-article-title" itemprop="headline">
