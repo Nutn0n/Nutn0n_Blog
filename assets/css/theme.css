@@ -521,7 +521,7 @@ a.oak-button:hover,
 ============================================================================================================================*/
 .oak-inner {
   position: relative;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
  margin-left: auto;
  margin-right: auto;
