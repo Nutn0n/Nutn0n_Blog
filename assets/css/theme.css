@@ -10,7 +10,7 @@ UNDER MIT LICENSE
 ==============================================================
 ==============================================================*/
 
-.img {
+img {
 
   /* IE */
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)!important;
