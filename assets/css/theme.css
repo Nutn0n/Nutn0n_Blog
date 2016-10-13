@@ -10,6 +10,18 @@ UNDER MIT LICENSE
 ==============================================================
 ==============================================================*/
 
+.img {
+
+  /* IE */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)!important;
+  /* Chrome, Safari */
+  -webkit-filter: grayscale(1)!important;
+  /* Firefox */
+  filter: grayscale(1)!important;
+
+}
+
+
 @import url("normalize.css");
 
 .oak-alizarin a {
