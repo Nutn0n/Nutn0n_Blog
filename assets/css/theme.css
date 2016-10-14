@@ -13,11 +13,11 @@ UNDER MIT LICENSE
 img {
 
   /* IE */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)!important;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(saturate=40%)!important;
   /* Chrome, Safari */
-  -webkit-filter: grayscale(1)!important;
+  -webkit-filter:saturate(40%)!important;
   /* Firefox */
-  filter: grayscale(1)!important;
+  filter:saturate(40%)!important;
 
 }
 
