@@ -12,18 +12,6 @@ UNDER MIT LICENSE
 
 
 
-img {
-
-  /* IE */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(saturate=40%)!important;
-  /* Chrome, Safari */
-  -webkit-filter:saturate(40%)!important;
-  /* Firefox */
-  filter:saturate(40%)!important;
-
-}
-
-
 @import url("normalize.css");
 
 .oak-alizarin a {
