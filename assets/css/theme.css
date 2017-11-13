@@ -1460,6 +1460,7 @@ box-shadow: 0 0 0 1px #0085CF!important;
     position: relative;
     width: 100%;
     height: auto;
+    font-size:20px;
     padding: 0 4rem;
   }
   .oak-header .oak-inner {
