@@ -338,7 +338,7 @@ blockquote {
   padding: 0.5rem 0 0.5rem 2rem;
   font-size: 1.1rem;
   text-align: left;
-  font-family: "Prompt","Helvetica Neue",sans-serif;
+  font-family: "Sukhumvit Set", "Prompt","Helvetica Neue",sans-serif;
   -webkit-transition: 0.2s ease;
   -moz-transition: 0.2s ease;
   -o-transition: 0.2s ease;
@@ -886,8 +886,8 @@ box-shadow: 0 0 0 1px #0085CF!important;
 .oak-article .oak-article-title {
   margin: 0;
   line-height: 34px;
-  font-size:32px!important;
-   font-family: "Prompt","Helvetica Neue",sans-serif;
+  font-size:30px!important;
+  font-family: "Sukhumvit Set", "Prompt","Helvetica Neue",sans-serif;
 
 }
 
@@ -895,8 +895,8 @@ box-shadow: 0 0 0 1px #0085CF!important;
   margin: 0;
   line-height: 44px;
   font-size:40px!important;
-   font-family: "Prompt","Helvetica Neue",sans-serif;
-   font-weight: 200;
+     font-family: "Sukhumvit Set", "Prompt","Helvetica Neue",sans-serif;
+   font-weight: 400;
 
 }
 
