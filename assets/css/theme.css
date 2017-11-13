@@ -55,7 +55,7 @@ UNDER MIT LICENSE
   }
 }
 @media (max-width: 1000px) {
-  .oak-alizarin .oak-navigation {	  
+  .oak-alizarin .oak-navigation {
     background: rgba(255, 255,255, 0.9);
     -webkit-backdrop-filter:blur(4px);
   }
@@ -298,11 +298,11 @@ h4,
 h5,
 h6 {
   color: #333333;
-  font-family: "Prompt","Helvetica Neue",sans-serif;
-  font-weight: 200;
+  font-family: "Sukhumvit Set", "Prompt","Helvetica Neue",sans-serif;
+  font-weight: 400;
 }
 
-.sukhumvit { font-family: "Prompt","Helvetica Neue",sans-serif; font-weight: 200!important; }
+.sukhumvit { font-family: "Sukhumvit Set", "Prompt","Helvetica Neue",sans-serif; font-weight: 400!important; }
 
 
 img {
